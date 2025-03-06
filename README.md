@@ -1,2 +1,2 @@
 # projectWorkshopBeckTwoSemester
-Tolkien's navigator
+Tolkien's Navigator of Middle-Earth
