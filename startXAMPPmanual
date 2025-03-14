@@ -1,8 +1,29 @@
-Установка XAMPP на Windows
-1. Перейдите на офиц. сайт. 
-https://www.apachefriends.org/index.html
-2. Выберите версию XAMPP для Windows и скачайте файл.
-3. Запустите файл (например, xampp-windows-x64-8.2.4-0-VS16-installer.exe).
- Если появится предупреждение от контроля учетных записей (UAC), нажмите "Да".
-4. Выберите компоненты, которые вы хотите установить (Apache, MySQL, PHP, phpMyAdmin). 
-5. Укажите папку для установки (по умолчанию C:\xampp.
+1. Установка XAMPP
+ 1. Установка Перейдите на офиц - https://www.apachefriends.org/index.html
+ 2. Выберите версию XAMPP и скачайте файл.
+ 3. Запустите файл (например, xampp-windows-x64-8.2.4-0-VS16-installer.exe).
+  Если появится предупреждение от контроля учетных записей (UAC), нажмите "Да".
+ 4. Выберите компоненты, которые вы хотите установить (Apache, MySQL, PHP, phpMyAdmin). 
+ 5. Укажите папку для установки (по умолчанию C:\xampp).
+
+2. Обновить XAMPP
+ 1. Установить MariaDB
+  1. Удалить все из папки "\xampp\mysql"
+  2. Скачать MariaDB 11.7.2 версия с устоновщиком - https://mariadb.org/download/?t=mariadb&p=mariadb&r=11.7.2&os=windows&cpu=x86_64&pkg=msi&mirror=docker_ru
+  3. В установщике Modify password for database user 'root' = false
+  4. В установщике Service Name = mysql
+ 2. Установить PHP
+  1. Удалить все из папки "\xampp\php"
+  2. Скачать PHP 8.4.5 - https://www.php.net/downloads.php (Windows - https://windows.php.net/download/ не потоко безопасную) 
+  3. Распокавать файл в "\xampp\php"
+  4. Скачать "WorkshopTwoSemester/InstructionsForDevelopers/php.ini", поместить в "\xampp\php". 
+
+3. Размещение проекта
+ 1. В папке "\xampp\htdocs" создать папку "drupal"
+ 2. Создать папку для текущией версии сайта. 
+ 3. Поместить в папку код сайта. 
+
+4. Запуск
+ 1. В "\xampp" от имини администратора запустить "xampp-control.exe"
+ 2. В нажать start напротив Apache и MySQL
+ 3. Перейти по "http://localhost/drupal/Ваше Название папки версии/"
