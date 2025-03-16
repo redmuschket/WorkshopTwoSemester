@@ -22,9 +22,15 @@ class ProjectController extends Controller
             'description' => 'nullable|string',
         ]);
 
-        $project = Project::create($request->only('name', 'description'));
+        // Создаем проект
+        $project = Project::create([
+            'name' => $request->name,
+            'description' => $request->description,
+        ]);
 
-        return response()->json(['project' => $project]);
+        return response()->json([
+            'project' => $project,
+        ]);
     }
 
     // Отображение окна редактирования проекта
@@ -49,26 +55,15 @@ class ProjectController extends Controller
     // Обновление проекта
     public function update(Request $request, Project $project)
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'description' => 'nullable|string',
+        $project->update([
+            'name' => $request->input('name'),
+            'description' => $request->input('description'),
         ]);
 
-        $project->update($request->only('name', 'description'));
-
-        return redirect()->route('post.show', $project->id)->with('success', 'Проект успешно обновлен!');
-    }
-
-    // Добавление деталей проекта
-    public function addDetail(Request $request, Project $project)
-    {
-        $request->validate([
-            'title' => 'required|string|max:255',
-            'content' => 'nullable|string',
-        ]);
-
-        $project->details()->create($request->only('title', 'content'));
-
-        return redirect()->route('projects.edit', $project)->with('success', 'Деталь успешно добавлена!');
+        // Перенаправляем на страницу просмотра проекта
+        return response()->json([
+            'message' => 'Проект успешно обновлен',
+            'redirect_url' => route('projects.show', $project),
+        ])->header('X-Content-Type-Options', 'nosniff');
     }
 }

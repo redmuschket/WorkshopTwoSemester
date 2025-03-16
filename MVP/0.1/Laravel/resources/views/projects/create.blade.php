@@ -3,52 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Создание проекта</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Проект</title>
+    @vite(['resources/css/create.css'])
     @vite(['resources/js/create.js'])
 </head>
 <body>
+    <header>
+        <a href="{{ route('projects.index') }}">Главная</a>
+    </header>
+
     <main>
-        <!-- Форма создания проекта -->
-        <h1>Создание проекта</h1>
-        <form id="createProjectForm" action="{{ route('projects.store') }}" method="post">
-            @csrf
-            <div class="form-control">
-                <label for="name" class="form-label">Название проекта</label>
-                <input type="text" name="name" id="name" class="form-control" required>
+        <!-- Верхняя часть: поля для названия и описания проекта -->
+        <div class="project-form">
+            <input type="text" id="projectName" placeholder="Название проекта">
+            <input type="text" id="projectDescription" placeholder="Описание проекта">
+        </div>
+
+        <!-- Средняя часть: картинка и форма редактирования детали -->
+        <div class="detail-section">
+            <div class="image-container">
+                <img src="#" alt="Деталь">
             </div>
-
-            <div class="form-control">
-                <label for="description" class="form-label">Описание проекта</label>
-                <textarea name="description" id="description" class="form-control" rows="3"></textarea>
+            <div class="edit-form">
+                <input type="text" id="detailTitle" placeholder="Название детали">
+                <textarea id="detailDescription" placeholder="Описание детали"></textarea>
+                <button id="applyDetail">Применить</button>
+                <button id="deleteDetail">Удалить деталь</button>
             </div>
+        </div>
 
-            <button type="submit" class="btn btn-primary">Создать проект</button>
-        </form>
-
-        <!-- Форма добавления деталей (скрыта до создания проекта) -->
-        <div id="addDetailsSection" style="display: none;">
-            <h2>Добавить детали проекта</h2>
-            <form id="addDetailForm" action="" method="POST">
-                @csrf
-                <div class="form-control">
-                    <label for="title">Заголовок</label>
-                    <input type="text" name="title" id="title" placeholder="Заголовок" required>
-                </div>
-
-                <div class="form-control">
-                    <label for="content">Содержимое</label>
-                    <textarea name="content" id="content" placeholder="Содержимое"></textarea>
-                </div>
-
-                <button type="submit">Добавить</button>
-            </form>
-
-            <!-- Список деталей проекта -->
-            <h2>Детали проекта</h2>
-            <ul id="detailsList">
-                <!-- Детали будут добавляться сюда динамически -->
-            </ul>
+        <!-- Нижняя часть: список деталей и кнопка "Сохранить" -->
+        <div class="bottom-section">
+            <div class="details-list">
+                <button id="addDetail">+</button>
+                <ul id="details">
+                    <!-- Детали будут добавляться сюда -->
+                </ul>
+            </div>
+            <button id="saveProject">Сохранить проект</button>
         </div>
     </main>
 </body>

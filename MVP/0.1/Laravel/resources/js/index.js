@@ -1,10 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Обработка двойного клика на ссылку проекта
+    // Обработка клика на ссылку проекта
     document.querySelectorAll('.project-link').forEach(function(link) {
+        let clickCount = 0; // Счетчик кликов
+        let timeoutId; // Идентификатор таймера
+
         link.addEventListener('click', function(event) {
-            if (event.detail === 2) { // Проверка на двойной клик
-                event.preventDefault(); // Отмена перехода по ссылке
+            event.preventDefault(); // Отменяем действие по умолчанию (переход по ссылке)
+
+            clickCount++; // Увеличиваем счетчик кликов
+
+            if (clickCount === 1) {
+                // Одинарный клик
+                timeoutId = setTimeout(function() {
+                    // Переход на страницу просмотра проекта
+                    window.location.href = link.getAttribute('href');
+                    clickCount = 0; // Сбрасываем счетчик
+                }, 300); // Задержка для определения двойного клика (300 мс)
+            } else if (clickCount === 2) {
+                // Двойной клик
+                clearTimeout(timeoutId); // Отменяем таймер одинарного клика
                 window.location.href = link.getAttribute('data-edit-url'); // Переход на страницу редактирования
+                clickCount = 0; // Сбрасываем счетчик
             }
         });
     });

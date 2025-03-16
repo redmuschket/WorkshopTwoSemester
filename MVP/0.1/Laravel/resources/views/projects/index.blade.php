@@ -22,7 +22,7 @@
                 </li>
             @endforeach
         </ul>
-        <a href="{{ route('projects.create') }}" class="project-link-add">+</a>
+        <a href="{{ route('projects.create') }}" id="addProjectButton" class="project-link-add">+</a>
     </div>
 </main>
 </body>

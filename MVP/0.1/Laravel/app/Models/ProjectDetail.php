@@ -8,7 +8,12 @@ class ProjectDetail extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['project_id', 'title', 'content'];
+    // Указываем, какие поля можно массово заполнять
+    protected $fillable = [
+        'title',
+        'content', // Добавляем это поле
+        'project_id', // Если нужно, добавьте и это поле
+    ];
 
     // Отношение "многие к одному" с Project
     public function project()
