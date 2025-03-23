@@ -14,7 +14,7 @@
   4. В установщике Service Name = mysql
  2. Установить PHP
   1. Удалить все из папки "\xampp\php"
-  2. Скачать PHP 8.4.5 - https://www.php.net/downloads.php (Windows - https://windows.php.net/download/ не потоко безопасную) 
+  2. Скачать PHP 8.4.5 - https://www.php.net/downloads.php (Windows - https://windows.php.net/download/ потоко безопасную) 
   3. Распокавать файл в "\xampp\php"
   4. Скачать "WorkshopTwoSemester/InstructionsForDevelopers/php.ini", поместить в "\xampp\php". 
 
