@@ -1,9 +1,0 @@
-# Директории Drupal, которые не нужно добавлять
-/web/sites/*/settings.php
-/web/sites/*/services.yml
-/web/sites/*/files
-/web/core
-/vendor
-/node_modules
-*.sql
-*.sqlite
