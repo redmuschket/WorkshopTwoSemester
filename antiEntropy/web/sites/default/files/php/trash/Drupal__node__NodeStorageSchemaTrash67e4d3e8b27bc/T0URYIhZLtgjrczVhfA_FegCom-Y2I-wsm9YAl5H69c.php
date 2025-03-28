@@ -5,7 +5,7 @@ use Drupal\Core\Field\FieldStorageDefinitionInterface;
 /**
  * Provides a custom storage schema class for trash-enabled entity types.
  */
-class Drupal__node__NodeStorageSchemaTrash67e13a1b61a5f extends \Drupal\node\NodeStorageSchema {
+class Drupal__node__NodeStorageSchemaTrash67e4d3e8b27bc extends \Drupal\node\NodeStorageSchema {
 
   /**
    * {@inheritdoc}
