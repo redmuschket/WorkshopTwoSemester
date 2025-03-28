@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component" isTestSource="false" packagePrefix="Drupal\Component\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Annotation/" isTestSource="false" packagePrefix="Drupal\Component\Annotation\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Assertion/" isTestSource="false" packagePrefix="Drupal\Component\Assertion\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/ClassFinder/" isTestSource="false" packagePrefix="Drupal\Component\ClassFinder\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Datetime/" isTestSource="false" packagePrefix="Drupal\Component\Datetime\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/DependencyInjection/" isTestSource="false" packagePrefix="Drupal\Component\DependencyInjection\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Diff/" isTestSource="false" packagePrefix="Drupal\Component\Diff\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Discovery/" isTestSource="false" packagePrefix="Drupal\Component\Discovery\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/EventDispatcher/" isTestSource="false" packagePrefix="Drupal\Component\EventDispatcher\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/FileCache/" isTestSource="false" packagePrefix="Drupal\Component\FileCache\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/FileSecurity/" isTestSource="false" packagePrefix="Drupal\Component\FileSecurity\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/FileSystem/" isTestSource="false" packagePrefix="Drupal\Component\FileSystem\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/FrontMatter/" isTestSource="false" packagePrefix="Drupal\Component\FrontMatter\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Gettext/" isTestSource="false" packagePrefix="Drupal\Component\Gettext\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Graph/" isTestSource="false" packagePrefix="Drupal\Component\Graph\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/HttpFoundation/" isTestSource="false" packagePrefix="Drupal\Component\HttpFoundation\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/PhpStorage/" isTestSource="false" packagePrefix="Drupal\Component\PhpStorage\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Plugin/" isTestSource="false" packagePrefix="Drupal\Component\Plugin\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/ProxyBuilder/" isTestSource="false" packagePrefix="Drupal\Component\ProxyBuilder\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Render/" isTestSource="false" packagePrefix="Drupal\Component\Render\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Serialization/" isTestSource="false" packagePrefix="Drupal\Component\Serialization\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Transliteration/" isTestSource="false" packagePrefix="Drupal\Component\Transliteration\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Utility/" isTestSource="false" packagePrefix="Drupal\Component\Utility\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Uuid/" isTestSource="false" packagePrefix="Drupal\Component\Uuid\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Component/Version/" isTestSource="false" packagePrefix="Drupal\Component\Version\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/lib/Drupal/Core" isTestSource="false" packagePrefix="Drupal\Core\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/modules/package_manager/tests/fixtures/path_repos/cweagans--composer-patches/src" isTestSource="false" packagePrefix="cweagans\Fake\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/Drupal/Tests/Composer/Plugin/Scaffold/fixtures/composer-plugin-implements-scaffold-events/src" isTestSource="false" packagePrefix="Drupal\Tests\fixture\Composer\Plugin\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/../Drupal/BuildTests" isTestSource="false" packagePrefix="Drupal\BuildTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/../Drupal/FunctionalJavascriptTests" isTestSource="false" packagePrefix="Drupal\FunctionalJavascriptTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/../Drupal/FunctionalTests" isTestSource="false" packagePrefix="Drupal\FunctionalTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/../Drupal/KernelTests" isTestSource="false" packagePrefix="Drupal\KernelTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/../Drupal/Tests" isTestSource="false" packagePrefix="Drupal\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/Rules" isTestSource="false" packagePrefix="Drupal\PHPStan\Rules\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/tests/PHPStan/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component" isTestSource="false" packagePrefix="Drupal\Component\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Annotation/" isTestSource="false" packagePrefix="Drupal\Component\Annotation\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Assertion/" isTestSource="false" packagePrefix="Drupal\Component\Assertion\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/ClassFinder/" isTestSource="false" packagePrefix="Drupal\Component\ClassFinder\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Datetime/" isTestSource="false" packagePrefix="Drupal\Component\Datetime\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/DependencyInjection/" isTestSource="false" packagePrefix="Drupal\Component\DependencyInjection\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Diff/" isTestSource="false" packagePrefix="Drupal\Component\Diff\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Discovery/" isTestSource="false" packagePrefix="Drupal\Component\Discovery\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/EventDispatcher/" isTestSource="false" packagePrefix="Drupal\Component\EventDispatcher\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/FileCache/" isTestSource="false" packagePrefix="Drupal\Component\FileCache\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/FileSecurity/" isTestSource="false" packagePrefix="Drupal\Component\FileSecurity\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/FileSystem/" isTestSource="false" packagePrefix="Drupal\Component\FileSystem\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/FrontMatter/" isTestSource="false" packagePrefix="Drupal\Component\FrontMatter\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Gettext/" isTestSource="false" packagePrefix="Drupal\Component\Gettext\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Graph/" isTestSource="false" packagePrefix="Drupal\Component\Graph\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/HttpFoundation/" isTestSource="false" packagePrefix="Drupal\Component\HttpFoundation\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/PhpStorage/" isTestSource="false" packagePrefix="Drupal\Component\PhpStorage\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Plugin/" isTestSource="false" packagePrefix="Drupal\Component\Plugin\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/ProxyBuilder/" isTestSource="false" packagePrefix="Drupal\Component\ProxyBuilder\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Render/" isTestSource="false" packagePrefix="Drupal\Component\Render\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Serialization/" isTestSource="false" packagePrefix="Drupal\Component\Serialization\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Transliteration/" isTestSource="false" packagePrefix="Drupal\Component\Transliteration\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Utility/" isTestSource="false" packagePrefix="Drupal\Component\Utility\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Uuid/" isTestSource="false" packagePrefix="Drupal\Component\Uuid\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Component/Version/" isTestSource="false" packagePrefix="Drupal\Component\Version\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/lib/Drupal/Core" isTestSource="false" packagePrefix="Drupal\Core\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/modules/package_manager/tests/fixtures/path_repos/cweagans--composer-patches/src" isTestSource="false" packagePrefix="cweagans\Fake\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/Drupal/Tests/Composer/Plugin/Scaffold/fixtures/composer-plugin-implements-scaffold-events/src" isTestSource="false" packagePrefix="Drupal\Tests\fixture\Composer\Plugin\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/../Drupal/BuildTests" isTestSource="false" packagePrefix="Drupal\BuildTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/../Drupal/FunctionalJavascriptTests" isTestSource="false" packagePrefix="Drupal\FunctionalJavascriptTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/../Drupal/FunctionalTests" isTestSource="false" packagePrefix="Drupal\FunctionalTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/../Drupal/KernelTests" isTestSource="false" packagePrefix="Drupal\KernelTests\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/../Drupal/Tests" isTestSource="false" packagePrefix="Drupal\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/Rules" isTestSource="false" packagePrefix="Drupal\PHPStan\Rules\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/core/tests/PHPStan/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/modules/contrib/automatic_updates/package_manager/tests/fixtures/path_repos/cweagans--composer-patches/src" isTestSource="false" packagePrefix="cweagans\Fake\" />
+      <sourceFolder url="file://$MODULE_DIR$/antiEntropy/web/modules/contrib/automatic_updates/scripts/src" isTestSource="false" packagePrefix="Drupal\automatic_updates\Development\" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/modules/package_manager/tests/fixtures/fake_site/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core-dev" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core-recommended" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/drupal/core-composer-scaffold" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/drupal/core-project-message" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/drupal/core-vendor-hardening" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/mck89/peast" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/pear/archive_tar" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/pear/console_getopt" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/pear/pear-core-minimal" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/php-tuf/composer-stager" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/revolt/event-loop" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/validator" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Drupal/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/chi-teck/drupal-code-generator" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/commerceguys/addressing" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/annotated-command" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/config" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/filter-via-dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/log" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/output-formatters" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/robo" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/site-alias" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/consolidation/site-process" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/davedevelopment/stiphle" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/drupal/core-composer-scaffold" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/drupal/core-project-message" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/drupal/recipe_installer_kit" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/drush/drush" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/enshrined/svg-sanitize" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/geocoder-php/common-http" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/geocoder-php/nominatim-provider" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/grasmash/expander" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/grasmash/yaml-cli" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/html2text/html2text" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/illuminate/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/illuminate/conditionable" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/illuminate/macroable" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/itamair/geophp" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/league/container" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/league/html-to-markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/mck89/peast" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/mtownsend/xml-to-array" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/openai-php/client" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/pear/archive_tar" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/pear/console_getopt" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/pear/pear-core-minimal" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/phootwork/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/phootwork/lang" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-http/guzzle7-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-http/multipart-stream-builder" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/php-tuf/composer-stager" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/phpowermove/docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/revolt/event-loop" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/simshaun/recurr" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/polyfill-php84" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/validator" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/willdurand/geocoder" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/wpai-inc/anthropic-sdk-php" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/vendor/yethee/tiktoken" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core-dev" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core-recommended" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/modules/contrib/automatic_updates/package_manager/tests/fixtures/fake_site/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/modules/contrib/automatic_updates/package_manager/tests/fixtures/fake_site/vendor/drupal/core" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/modules/contrib/automatic_updates/package_manager/tests/fixtures/fake_site/vendor/drupal/core-dev" />
+      <excludeFolder url="file://$MODULE_DIR$/antiEntropy/web/modules/contrib/automatic_updates/package_manager/tests/fixtures/fake_site/vendor/drupal/core-recommended" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/pail" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/league/uri-interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/MVP/0.1/Laravel/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
