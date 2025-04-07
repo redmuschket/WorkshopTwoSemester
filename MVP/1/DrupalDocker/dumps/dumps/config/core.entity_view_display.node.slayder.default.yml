@@ -1,0 +1,56 @@
+uuid: b62c681c-6cc4-48a3-925c-a69b0a146c49
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.slayder.field_izobrazhenie
+    - field.field.node.slayder.field_opisanie
+    - field.field.node.slayder.field_ssylka
+    - node.type.slayder
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.slayder.default
+targetEntityType: node
+bundle: slayder
+mode: default
+content:
+  field_izobrazhenie:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_opisanie:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_ssylka:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

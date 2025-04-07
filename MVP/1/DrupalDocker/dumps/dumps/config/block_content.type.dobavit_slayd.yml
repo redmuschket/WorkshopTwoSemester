@@ -1,0 +1,8 @@
+uuid: d197ca34-bc7b-427f-b918-f5c871887e30
+langcode: ru
+status: true
+dependencies: {  }
+id: dobavit_slayd
+label: 'Добавить слайд'
+revision: false
+description: null

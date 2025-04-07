@@ -1,0 +1,13 @@
+uuid: 61f37847-76d2-448d-98ec-2e0017313b8a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: CsK6TseQ2DatEbZgbd30swOlZ28_HHwAESU2LvEnWq0
+id: media_unpublish_action
+label: 'Снять с публикации медиа'
+type: media
+plugin: 'entity:unpublish_action:media'
+configuration: {  }

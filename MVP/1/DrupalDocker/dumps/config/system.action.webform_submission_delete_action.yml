@@ -1,0 +1,13 @@
+uuid: 9c9528b7-0126-467c-a7ec-99affc1341db
+langcode: ru
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: TBnl4vapW7sy5bRi7TcF-ueJnvz7aZNLif95ifvhfTQ
+id: webform_submission_delete_action
+label: 'Удалить отправление'
+type: webform_submission
+plugin: webform_submission_delete_action
+configuration: {  }

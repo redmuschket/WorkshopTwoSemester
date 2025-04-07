@@ -1,0 +1,11 @@
+uuid: d3d96292-3c4f-42c9-a275-5b71b113d9d9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.dobavit_slayd
+id: block_content.dobavit_slayd
+target_entity_type_id: block_content
+target_bundle: dobavit_slayd
+default_langcode: site_default
+language_alterable: false

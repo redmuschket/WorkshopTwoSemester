@@ -1,0 +1,19 @@
+uuid: 5f41d323-f3d4-4a9b-bf3f-e9f010ad5a30
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_opisanie
+field_name: field_opisanie
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 3d96bd8d-9302-4cd7-be2f-bae21f0effb5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opisanie
+    - node.type.slayder
+  module:
+    - text
+id: node.slayder.field_opisanie
+field_name: field_opisanie
+entity_type: node
+bundle: slayder
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

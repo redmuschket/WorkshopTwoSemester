@@ -1,0 +1,27 @@
+uuid: ba256fdd-bfa6-4271-a99e-888af048e510
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slayder.field_izobrazhenie
+    - field.field.node.slayder.field_opisanie
+    - field.field.node.slayder.field_ssylka
+    - node.type.slayder
+  module:
+    - user
+id: node.slayder.teaser
+targetEntityType: node
+bundle: slayder
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_izobrazhenie: true
+  field_opisanie: true
+  field_ssylka: true
+  langcode: true

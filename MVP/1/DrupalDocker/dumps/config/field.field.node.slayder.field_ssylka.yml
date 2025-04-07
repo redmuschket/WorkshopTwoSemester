@@ -1,0 +1,23 @@
+uuid: 69c12cab-4a0c-4d9b-b314-ebd9795421c0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ssylka
+    - node.type.slayder
+  module:
+    - link
+id: node.slayder.field_ssylka
+field_name: field_ssylka
+entity_type: node
+bundle: slayder
+label: Ссылка
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

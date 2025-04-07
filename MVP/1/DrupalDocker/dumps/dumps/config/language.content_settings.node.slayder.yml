@@ -1,0 +1,11 @@
+uuid: d38bea5d-917a-454c-ac37-eaaea4048259
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.slayder
+id: node.slayder
+target_entity_type_id: node
+target_bundle: slayder
+default_langcode: site_default
+language_alterable: false

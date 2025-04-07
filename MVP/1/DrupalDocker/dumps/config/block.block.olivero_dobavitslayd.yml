@@ -1,0 +1,30 @@
+uuid: 27ad6765-f07e-4e4e-90c8-ee58d3fa3abe
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:dobavit_slayd:73c5469f-9cb0-4754-8f5e-d6a033b41eb2'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_dobavitslayd
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:73c5469f-9cb0-4754-8f5e-d6a033b41eb2'
+settings:
+  id: 'block_content:73c5469f-9cb0-4754-8f5e-d6a033b41eb2'
+  label: 'Добавить слайд'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /slider

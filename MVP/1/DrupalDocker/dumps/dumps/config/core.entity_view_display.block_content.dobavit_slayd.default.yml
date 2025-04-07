@@ -1,0 +1,23 @@
+uuid: 21da5fc7-3f4c-4a79-a4a5-67a2bcbff8c8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.dobavit_slayd
+    - field.field.block_content.dobavit_slayd.body
+  module:
+    - text
+id: block_content.dobavit_slayd.default
+targetEntityType: block_content
+bundle: dobavit_slayd
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

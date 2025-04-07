@@ -1,0 +1,13 @@
+uuid: 63681e30-81a0-4625-ac29-47fc4b7bb03e
+langcode: ru
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QJ2aZ1xfVf59aq6Pz5X7fyUOa2HxuCoTwQ_RQjoulAU
+id: node.full
+label: 'Полная версия'
+description: ''
+targetEntityType: node
+cache: true

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: ru
+uuid: 9ac6c8c0-8824-4da3-ac0b-2d0df13d8bb4
+name: Workshop
+mail: artemk306@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /my-slider
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: ru
+mail_notification: null
